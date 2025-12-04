@@ -41,3 +41,42 @@
 // }
 
 // console.log(stringToNumber("123"));
+
+
+//6-masala
+
+// function noSpace(x){
+// return x.replace(/\s/g,'')
+// }
+
+// console.log(noSpace("dl ddo dlcld "));
+
+
+//7-masala
+
+// function booleanToString(b){
+//   return b.toString()
+// }
+
+//8-masala
+
+// function greet(name){
+//   return `Hello, ${name} how are you doing today?`
+// }
+
+
+// 9-masala
+
+// function makeUpperCase(str) {
+//   return str.toUpperCase()
+// }
+
+
+//10-masala
+
+// function areYouPlayingBanjo(name) {
+// return name[0].toLowerCase() === "r" ? `${name} plays banjo` : `${name} does not play banjo`
+// }
+
+// console.log(areYouPlayingBanjo("Ringo"));
+
