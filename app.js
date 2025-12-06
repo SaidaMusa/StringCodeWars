@@ -80,3 +80,18 @@
 
 // console.log(areYouPlayingBanjo("Ringo"));
 
+
+//11-masala
+
+
+//12-masala
+
+function smash (words) {
+  return words.join(" ")
+};
+
+console.log(smash("hello world"));
+
+//13-masala
+
+
