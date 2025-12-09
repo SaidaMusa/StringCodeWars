@@ -86,12 +86,47 @@
 
 //12-masala
 
-function smash (words) {
-  return words.join(" ")
-};
+// function smash (words) {
+//   return words.join(" ")
+// };
 
-console.log(smash("hello world"));
+// console.log(smash("hello world"));
 
 //13-masala
 
+// function DNAtoRNA(dna) {
+//   return dna.replaceAll("T","U")
+// }
+
+// 14-masala
+
+// function stringToArray(string){
+//  return string.split(" ")
+
+// }
+
+
+//15-masala
+
+// function check(a, x) {
+//  return a.includes(x)
+// }
+
+
+//16-masala
+// function fakeBin(x){
+//   let result = "";
+
+//   for (let i = 0; i < x.length; i++) {
+//     if (Number(x[i]) >= 5) {
+//       result += "1";
+//     } else {
+//       result += "0";
+//     }
+//   }
+
+//   return result;
+// }
+
+// console.log(fakeBin("1023")); 
 
