@@ -130,3 +130,27 @@
 
 // console.log(fakeBin("1023")); 
 
+
+// 17-masala
+
+// var countSheep = function (num){
+//   let result = ""
+//   for (let i = 1; i <= num; i++) {
+//    result += `${i} sheep...` 
+//   }
+//   return result
+// }
+
+
+//18-masala
+
+// function greet (name, owner) {
+//  return (name === owner) ? "Hello boss" : "Hello guest"
+// }
+
+// 19-masala
+
+// function removeExclamationMarks(s) {
+//   return s.replaceAll("!","");
+// }
+
