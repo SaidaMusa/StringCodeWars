@@ -154,3 +154,19 @@
 //   return s.replaceAll("!","");
 // }
 
+
+//20-masala
+
+
+
+//21-masala
+
+// function sumMix(x){
+//  let result = 0;
+
+//  for (let i = 0; i < x.length; i++) {
+//    result += Number(x[i])
+//  } 
+  
+//   return result
+// }
