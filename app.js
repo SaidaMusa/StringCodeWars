@@ -170,3 +170,26 @@
   
 //   return result
 // }
+
+
+//22-masala
+
+// function doubleChar(str) {
+//   let result = ""
+
+//   for (let i = 0; i < str.length; i++) {
+//     result += str[i]+str[i]
+//   }
+
+//   return result
+// }
+
+
+//23-masala
+
+// function feast(beast, dish) {
+// return (beast[0] === dish[0] && beast[beast.length-1] === dish[dish.length-1]) ? true : false ;
+// }
+
+// console.log(feast("did","doo"));
+
