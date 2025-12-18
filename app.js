@@ -83,6 +83,14 @@
 
 //11-masala
 
+// function abbrevName(name){
+//  let a = name.split(" ")
+//   for (let i = 0; i < a.length; i++) {
+//    let result =     
+//   }
+// }
+// console.log(abbrevName("harris tom"));
+
 
 //12-masala
 
@@ -193,3 +201,10 @@
 
 // console.log(feast("did","doo"));
 
+//24-masala
+
+// function reverseWords(str){
+//   return str.split(" ").reverse().join(" ")
+// }
+
+// console.log(reverseWords("hello world"));
