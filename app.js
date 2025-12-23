@@ -226,3 +226,18 @@
 // console.log(strCount("hello","l"));
 
 
+// 26-masala
+
+// String.prototype.isUpperCase = function () {
+//   return this.toString() === this.toUpperCase();
+// }
+
+// 27-masala
+
+// function correct(string) {
+//   return string.replaceAll("0", "O").replaceAll("1", "I").replaceAll("5", "S");
+// }
+
+// console.log(correct("L0nd0n"));
+
+
