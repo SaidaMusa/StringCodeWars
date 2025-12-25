@@ -85,9 +85,10 @@
 
 // function abbrevName(name){
 //  let a = name.split(" ")
-//   for (let i = 0; i < a.length; i++) {
-//    let result =     
-//   }
+//  let firstName = a[0].charAt(0).toUpperCase()
+//  let lastName = a[1].charAt(0).toUpperCase()
+//  return firstName+"."+lastName
+
 // }
 // console.log(abbrevName("harris tom"));
 
@@ -239,5 +240,14 @@
 // }
 
 // console.log(correct("L0nd0n"));
+
+// 27-masala
+
+// function bonusTime(salary, bonus) {
+// return (bonus === true) ?  `\u00A3${salary*10}` :  `\u00A3${salary}`
+// }
+
+//28-masala
+
 
 
