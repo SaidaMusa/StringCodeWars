@@ -247,7 +247,16 @@
 // return (bonus === true) ?  `\u00A3${salary*10}` :  `\u00A3${salary}`
 // }
 
+//28-masala 
 
-
+// function twoSort(s) {
+//   let result = ""
+// for (let i = 0; i < s.length; i++) {
+//  if (s[i] === `/[a-zA-Z]/`) {
+//    result += s[i]
+//  } 
+// }
+// return result
+// }
 
 
