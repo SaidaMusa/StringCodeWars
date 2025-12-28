@@ -260,3 +260,13 @@
 // }
 
 
+//5kyu
+// function generateHashtag(str) {
+//   let result = str.trim().split(" ")
+//   let capitalLetter = ""
+//   for (let i = 0; i < result.length; i++) {
+//    capitalLetter += result[i].charAt(0).toUpperCase()+result[i].slice(1)     
+//   }
+//   return (capitalLetter.length >= 140 || capitalLetter.length === 0) ? false : "#"+capitalLetter
+// }
+// console.log(generateHashtag(" hello world hello "));
