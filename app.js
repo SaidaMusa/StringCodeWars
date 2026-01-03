@@ -270,3 +270,10 @@
 //   return (capitalLetter.length >= 140 || capitalLetter.length === 0) ? false : "#"+capitalLetter
 // }
 // console.log(generateHashtag(" hello world hello "));
+
+//29-masala
+
+// function solution(a, b){
+//   return (a.length>b.length) ? b+a+b : a+b+a 
+// }
+
