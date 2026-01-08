@@ -292,3 +292,14 @@
 
 // console.log(multiTable(5));
 
+//31-masala
+
+// function nameShuffler(str){
+//  let a = str.split(" ")
+// return a[1]+" "+a[0]
+
+// }
+
+// console.log(nameShuffler("tom jerry"));
+
+
