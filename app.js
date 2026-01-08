@@ -303,3 +303,13 @@
 // console.log(nameShuffler("tom jerry"));
 
 
+// 32-masala 
+
+// function capitalizeWord(word) {
+// if (word.length>=2) {
+//    return word.charAt(0).toUpperCase()+word.slice(1)
+// }else {
+//   return word.toUpperCase()
+// }
+// }
+// console.log(capitalizeWord("hi"));
