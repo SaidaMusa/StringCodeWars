@@ -313,3 +313,38 @@
 // }
 // }
 // console.log(capitalizeWord("hi"));
+
+//33-masala
+
+// function stringy(size) {
+//  let result = ""
+//  for (let i = 0; i < size; i++) {
+//     result += i % 2 === 0 ? "1" : "0";
+//  }
+//  return result
+// }
+
+//34-masala
+
+// function mouthSize(animal) {
+//   return (animal === "alligator") ? "small" : "wide" 
+// }
+
+// 35-masala
+
+// function well(x){
+// let good = 0
+
+// for (let i = 0; i < x.length; i++) {
+//   if (x[i]==="good") {
+//     good ++
+//   } 
+// }
+// if (good === 1 || good === 2) {
+//   return "Publish!"
+// }else if(good >2){
+//   return "I smell a series!"
+// }else{
+//   return "Fail!"
+// }
+// }
