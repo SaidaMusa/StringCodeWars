@@ -348,3 +348,38 @@
 //   return "Fail!"
 // }
 // }
+
+
+// 36-masala
+
+// function sayHello( name, city, state ) {
+//   let a = name.join(" ")
+  
+//   return `Hello, ${a}! Welcome to ${city}, ${state}!`
+// }
+
+
+// 37-masala
+
+// function remove (string) {
+//  return (string.endsWith("!")) ? string.substring(0,string.length-1) : string 
+// }
+
+
+// 38-masala
+
+// function reverse(string){
+//   let a = string.split(" ")
+//   let b = ""
+  
+//   for (let i = a.length - 1; i >= 0; i--) {
+//     b += a[i]+" "
+//     }
+//   return b.trim()
+// }
+
+// 39-masala
+
+// function stringClean(s){
+//  return  s.replace(/[0-9]/g,"") ;
+// }
