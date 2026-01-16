@@ -387,10 +387,10 @@
 
 // 40-masala
 
-function array(string) {
-  const arr = string.split(",");
+// function array(string) {
+//   const arr = string.split(",");
 
-  if (arr.length < 3) return null;
+//   if (arr.length < 3) return null;
 
-  return arr.slice(1, -1).join(" ");
-}
+//   return arr.slice(1, -1).join(" ");
+// }
