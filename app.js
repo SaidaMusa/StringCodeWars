@@ -400,3 +400,29 @@
 // function apple(x){
 // return (x**2>1000) ? "It's hotter than the sun!!" : "Help yourself to a honeycomb Yorkie for the glovebox."
 // }
+
+
+// 42-masala
+
+// function formatMoney(amount) {
+//   return "$" + Number(amount).toFixed(2);
+// }
+
+// 43-masala
+
+// function getDrinkByProfession(param) {
+//   const job = param.toLowerCase();
+
+//   if (job === "jabroni") return "Patron Tequila";
+//   if (job === "school counselor") return "Anything with Alcohol";
+//   if (job === "programmer") return "Hipster Craft Beer";
+//   if (job === "bike gang member") return "Moonshine";
+//   if (job === "politician") return "Your tax dollars";
+//   if (job === "rapper") return "Cristal";
+
+//   return "Beer";
+// }
+
+// 44-masala
+
+
