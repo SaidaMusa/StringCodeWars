@@ -432,3 +432,125 @@
 
 // 45-masala
 
+// function subtractSum(n) {
+//   const fruits = [
+//     "default",
+//     "kiwi",
+//     "pear",
+//     "kiwi",
+//     "banana",
+//     "melon",
+//     "banana",
+//     "melon",
+//     "pineapple",
+//     "apple",
+//     "pineapple",
+//     "cucumber",
+//     "pineapple",
+//     "cucumber",
+//     "orange",
+//     "grape",
+//     "orange",
+//     "grape",
+//     "apple",
+//     "grape",
+//     "cherry",
+//     "pear",
+//     "cherry",
+//     "pear",
+//     "kiwi",
+//     "banana",
+//     "kiwi",
+//     "apple",
+//     "melon",
+//     "banana",
+//     "melon",
+//     "pineapple",
+//     "melon",
+//     "pineapple",
+//     "cucumber",
+//     "orange",
+//     "apple",
+//     "orange",
+//     "grape",
+//     "orange",
+//     "grape",
+//     "cherry",
+//     "pear",
+//     "cherry",
+//     "pear",
+//     "apple",
+//     "pear",
+//     "kiwi",
+//     "banana",
+//     "kiwi",
+//     "banana",
+//     "melon",
+//     "pineapple",
+//     "melon",
+//     "apple",
+//     "cucumber",
+//     "pineapple",
+//     "cucumber",
+//     "orange",
+//     "cucumber",
+//     "orange",
+//     "grape",
+//     "cherry",
+//     "apple",
+//     "cherry",
+//     "pear",
+//     "cherry",
+//     "pear",
+//     "kiwi",
+//     "pear",
+//     "kiwi",
+//     "banana",
+//     "apple",
+//     "banana",
+//     "melon",
+//     "pineapple",
+//     "melon",
+//     "pineapple",
+//     "cucumber",
+//     "pineapple",
+//     "cucumber",
+//     "apple",
+//     "grape",
+//     "orange",
+//     "grape",
+//     "cherry",
+//     "grape",
+//     "cherry",
+//     "pear",
+//     "cherry",
+//     "apple",
+//     "kiwi",
+//     "banana",
+//     "kiwi",
+//     "banana",
+//     "melon",
+//     "banana",
+//     "melon",
+//     "pineapple",
+//     "apple",
+//     "pineapple"
+//   ];
+
+//   while (true) {
+//     let a = String(n).split("");
+//     let digitSum = 0;
+//     for (let i = 0; i < a.length; i++) {
+//       digitSum += Number(a[i]);
+//     }
+
+//     n = n - digitSum;
+
+//     if (fruits[n]) {
+//       return fruits[n];
+//     }
+//   }
+// }
+
+
+// console.log(subtractSum(325)); 
