@@ -565,15 +565,39 @@
 
 // 47-masala
 
-function billboard(name, price = 30){
+// function billboard(name, price = 30){
 
-  let count =0
+//   let count =0
 
-  for (let i = 0; i < name.length; i++) {
+//   for (let i = 0; i < name.length; i++) {
   
-    count += price
-  }
-  return count
-} 
+//     count += price
+//   }
+//   return count
+// } 
 
-console.log(billboard("Salom"));
+// console.log(billboard("Salom"));
+
+// 48-masala
+
+// function toCsvText(array) {
+//   let rows = array.map(row => row.join(","));
+//   return rows.join("\n");
+// }
+// console.log(toCsvText(
+//   [[ 0, 1, 2, 3, 4 ],
+//     [ 10,11,12,13,14 ],
+//     [ 20,21,22,23,24 ],
+//     [ 30,31,32,33,34 ]] ));
+
+// 49-masala
+
+// function defineSuit(card) {
+// if(card.includes('♥')) return 'hearts'
+// if(card.includes('♦')) return 'diamonds'
+// if(card.includes('♣')) return 'clubs'
+// if(card.includes('♠')) return 'spades' 
+// }
+
+// console.log(defineSuit('2♦'));
+
