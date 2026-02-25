@@ -601,3 +601,4 @@
 
 // console.log(defineSuit('2♦'));
 
+let dio = "dio"
