@@ -601,4 +601,359 @@
 
 // console.log(defineSuit('2♦'));
 
-let dio = "dio"
+// 50-masala
+
+// function isVow(a){
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i] === 101) a[i] = "e"
+//      if (a[i] === 105) a[i] = "i"
+//       if (a[i] === 111) a[i] = "o"
+//        if (a[i] === 117) a[i] = "u"
+//         if (a[i] === 97) a[i] = "a"
+//   }
+//   return a
+// }
+// console.log(isVow([100,100,116,105,117,121]));
+
+
+// 51-masala
+
+// function whoIsPaying(name){
+//   let a = name.slice(0,2)
+//   if (name.length <= 2) return [name]
+//   else return [name,a]
+// }
+
+
+// 52-masala
+
+// function isLochNessMonster(s) {
+//  return s.includes("tree fiddy") || s.includes("3.50") || s.includes("three fifty")
+// }
+
+// 53-masala 
+
+// const arrowFunc = function(arr) {
+//   return arr.map( a => String.fromCharCode(a)).join('')
+// }
+
+
+// 53-masala
+
+// var templateStrings = function(noun, adjective) {
+//   return `${noun} are ${adjective}`
+// }
+
+// 54-masala
+
+
+// function neutralise(s1, s2) {
+//   let result = "";
+
+//   for (let i = 0; i < s1.length; i++) {
+//     if (s1[i] === s2[i]) {
+//       result += s1[i];
+//     } else {
+//       result += "0";
+//     }
+//   }
+
+//   return result;
+// }
+
+// console.log(neutralise("+-+", "+--"));
+
+
+// 55-masala
+
+// function uefaEuro2016(teams, scores) {
+//   if (scores[0] === scores[1]) {
+//     return `At match ${teams[0]} - ${teams[1]}, teams played draw.`
+//   }
+
+//   return (scores[0] > scores[1])
+//     ? `At match ${teams[0]} - ${teams[1]}, ${teams[0]} won!` : `At match ${teams[0]} - ${teams[1]}, ${teams[1]} won!`
+// }
+
+
+// 56-masala
+
+// function aliasGen(first, last){
+//      let firstName = {
+//         A: 'Alpha', B: 'Beta', C: 'Cache', D: 'Data', E: 'Energy', F: 'Function', G: 'Glitch', H: 'Half-life',
+//         I: 'Ice', J: 'Java', K: 'Keystroke', L: 'Logic', M: 'Malware', N: 'Nagware', O: 'OS', P: 'Phishing',
+//         Q: 'Quantum', R: 'RAD', S: 'Strike', T: 'Trojan', U: 'Ultraviolet', V: 'Vanilla', W: 'Wifi', X: 'Xerox',
+//         Y: 'Y', Z: 'Zero'
+//     };
+    
+//     let surname = {
+//         A: 'Analogue', B: 'Bomb', C: 'Catalyst', D: 'Discharge', E: 'Electron', F: 'Faraday', G: 'Gig', H: 'Hacker',
+//         I: 'IP', J: 'Jabber', K: 'Killer', L: 'Lazer', M: 'Mike', N: 'n00b', O: 'Overclock', P: 'Payload',
+//         Q: 'Quark', R: 'Roy', S: 'Spy', T: 'T-Rex', U: 'Unit', V: 'Virus', W: 'Worm', X: 'X',
+//         Y: 'Yob', Z: 'Zombie'
+//     };
+    
+//     let firstInitial = first[0].toUpperCase();
+//     let lastInitial = last[0].toUpperCase();
+    
+//     if (!firstName[firstInitial] || !surname[lastInitial]) {
+//         return "Your name must start with a letter from A - Z.";
+//     }
+    
+//     return `${firstName[firstInitial]} ${surname[lastInitial]}`;
+// }
+
+
+// 58-masala
+
+// function correctPolishLetters(string) {
+//   const letters = {
+//     ą: "a",
+//     ć: "c",
+//     ę: "e",
+//     ł: "l",
+//     ń: "n",
+//     ó: "o",
+//     ś: "s",
+//     ź: "z",
+//     ż: "z"
+//   };
+
+//   return string.replace(/[ąćęłńóśźż]/g, ch => letters[ch]);
+// }
+
+
+// 59-masala
+
+// function htmlspecialchars(formData) {
+//   return formData
+//     .replace(/&/g, "&amp;")
+//     .replace(/</g, "&lt;")
+//     .replace(/>/g, "&gt;")
+//     .replace(/"/g, "&quot;");
+// }
+
+
+
+// 60-masala
+
+// function countWords(str) {
+//   str = str.trim()
+  
+//   if (str === "") return 0
+  
+//   let words = str.split(/\s+/)
+  
+//   return words.length
+// }
+
+
+// 61-masala
+
+// function add(a, b){
+//   return a==b
+// 	}
+
+
+// 62-masala
+
+// const STRANGE_STRING = "ß";
+
+// 63-masala
+
+// function changeMe(moneyIn) {
+//   const values = {
+//     "20p": 20,
+//     "50p": 50,
+//     "£1": 100,
+//     "£2": 200,
+//     "£5": 500
+//   };
+
+//   if (!values[moneyIn]) return moneyIn;
+
+//   let amount = values[moneyIn];
+//   let result = [];
+
+//   if (amount === 20) {
+//     return "10p 10p";
+//   }
+
+//   while (amount >= 20) {
+//     result.push("20p");
+//     amount -= 20;
+//   }
+
+//   while (amount >= 10) {
+//     result.push("10p");
+//     amount -= 10;
+//   }
+
+//   return result.join(" ");
+// }
+
+
+
+// Array
+
+// 1-masala
+
+// function positiveSum(arr) {
+//   let count = 0
+//  for (let i = 0; i < arr.length; i++) {
+//    if (arr[i] >= 0) {
+//      count+= arr[i]
+//    }
+//  } 
+//  return count
+// }
+
+// console.log(positiveSum([1, -4, 7, 12]));
+
+// 2-masala
+
+// function squareSum(numbers){
+//  let count = 0
+//  numbers.forEach((a) => {
+//    count += a**2
+//  });
+//  return count
+// }
+// squareSum([1,2])
+
+
+// 3-masala
+
+// function countSheeps(sheep) {
+//   let count = 0
+//   for (let i = 0; i < sheep.length; i++) {
+//     if (sheep[i] === true) {
+//       count ++
+//     }
+//   }
+//   return count
+// }
+
+// console.log(countSheeps([true,  true,  true,  false,
+//   true,  true,  true,  true ,
+//   true,  false, true,  false,
+//   true,  false, false, true ,
+//   true,  true,  true,  true ,
+//   false, false, true,  true]));
+
+
+// 4-masala
+
+// function sum (numbers) {
+//   let result = numbers.reduce((a,b)=> a+b,0)
+// return result
+// }
+
+// console.log(sum([1,2,3,-4]));
+
+// 5-masala
+
+// function digitize(n) {
+//   return String(n)        
+//     .split('')            
+//     .reverse()            
+//     .map(Number);        
+// }
+
+
+
+// 6-masala
+
+// function maps(x){
+//  return x.map(a =>  a*2)
+// }
+// console.log(maps([1,2,3]));
+
+
+// 7-masala
+
+// function findNeedle(haystack) {
+//   for (let i = 0; i < haystack.length; i++) {
+//     if (haystack[i]==="needle") {
+//       return `found the needle at position ${i}`
+//     }
+    
+//   }
+// }
+
+
+
+
+// 8-masala
+
+// function invert(array) {
+//   return array.map(x => -x);
+// }
+// console.log(invert([1,2]));
+
+
+// 9-masala
+
+// function findAverage(array) {
+
+// if (array.length === 0) return 0
+// let result = 0
+
+// for (let i = 0; i < array.length; i++) {
+//   result += array[i]
+  
+// }
+// return  result/array.length
+// }
+// console.log(findAverage([1,2,3]));
+
+
+
+// 10-masala
+
+// function smash (words) {
+//    return words.join(" ")
+// };
+
+
+// 11-masala
+
+// function grow(x){
+//   let result = 1
+//  x.forEach(element => {
+//   result *= element
+//  });
+//   return result;
+// }
+// console.log(grow([1,2,3]));
+
+// 12-masala
+
+// function countPositivesSumNegatives(input) {
+//   if (!input || input.length === 0) {
+//     return [];
+//   }
+  
+//   let count = 0;
+//   let sum = 0;
+  
+//   for (let num of input) {
+//     if (num > 0) {
+//       count++;
+//     } else if (num < 0) {
+//       sum += num;
+//     }
+//   }
+  
+//   return [count, sum];
+// }
+
+
+
+
+
+
+
+
+
+
